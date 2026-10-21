@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+h2 ,h3,h4{
+  text-align: center;
+  margin: 30px;
+}
+
+.student-card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #00000015;
+}
+
+.student-card h2 {
+  color: #2563eb;
+}
+
+/* Props Drilling Section */
+.props-drilling {
+  margin: 20px;
+  padding: 20px;
+}
+
+.props-drilling h2 {
+  text-align: center;
+}
+
+.drilling-dashboard,
+.drilling-student-section,
+.drilling-student-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.drilling-arrow {
+  text-align: center;
+  font-size: 20px;
+}
+
+.drilling-student-card {
+  background-color: #f5f5f5;
+}
